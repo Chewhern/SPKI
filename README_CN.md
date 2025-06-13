@@ -3,6 +3,8 @@
 
 这是一个CA + 信任网络 + GPG 的原型应用程序。
 
+我没有时间做一些清理工作，澄清一些使用 AGPL 许可证造成的困惑。等我有时间了再做。
+
 ## 所需组件/环境
 
 [下载 Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
