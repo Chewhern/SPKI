@@ -5,6 +5,15 @@
 
 我没有时间做一些清理工作，澄清一些使用 AGPL 许可证造成的困惑。等我有时间了再做。
 
+不确定这是否有用，但这里有视频链接。[点击我](https://space.bilibili.com/3537114994051579/lists/4746992?type=series)\
+最好还是观看油管的毕竟我的早期B站账号已经注销了。
+
+我可能遗漏了一些信息。如有不明白，请随时提问。
+
+## CApp 问答
+[English](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
+[中文版/中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
+
 ## 所需组件/环境
 
 [下载 Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
