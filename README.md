@@ -1,13 +1,19 @@
 # SPKI
+[Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/README_CN.md)
+
 A simple user to user PKI full stack prototype with C#.
 
 This is a prototype CA + web of trust + GPG application.
+
+I don't have time to do some cleaning and clarify some confusions caused by using AGPL license. I will do so when I have time. 
 
 ## Components/Environment required
 
 [Download Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 Client device requires a desktop environment with resolution of **1920 x 1080**.
+
+On Linux(Ubuntu), you need to execute **apt install dotnet-sdk-8.0**. If such execution was not possible then you can use Windows to compile and deploy on Linux.
 
 ### Building applications (On Windows with Visual Studio)
 1. Navigate to the source code folder whereby there's ".csproj" inside.
