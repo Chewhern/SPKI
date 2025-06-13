@@ -7,6 +7,14 @@ This is a prototype CA + web of trust + GPG application.
 
 I don't have time to do some cleaning and clarify some confusions caused by using AGPL license. I will do so when I have time. 
 
+Not sure if this's helpful but here's video link. [Click me](https://www.youtube.com/playlist?list=PLCCjQamH_8r0-gvWvXs_joqkTMGI-SXqz)
+
+I might miss some information. Do ask if you don't understand.
+
+## CApp questions and answers
+[Click me](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
+[Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
+
 ## Components/Environment required
 
 [Download Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
