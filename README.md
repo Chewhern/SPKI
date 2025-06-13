@@ -13,7 +13,8 @@ I might miss some information. Do ask if you don't understand.
 
 ## CApp questions and answers
 [Click me](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
-[Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
+
+[中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
 
 ## Components/Environment required
 
