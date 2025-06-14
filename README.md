@@ -11,6 +11,20 @@ Not sure if this's helpful but here's video link. [Click me](https://www.youtube
 
 I might miss some information. Do ask if you don't understand.
 
+# SPKI License requirements
+If you reuse or distribute this project (with or without modification), you must provide visible credit to the author via a reference or link to this GitHub repository.
+
+# SPKI License exclusions
+Currently, three types of code modifications won't trigger AGPL. They're **cryptography customization**,**Path customization**,**Duration customization**.
+For details, kindly refer to the corresponding files below.
+
+[Cryptography Customization](https://github.com/Chewhern/SPKI/blob/main/Cryptography_Customization.md)
+
+[Path and customization](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization.md)
+
+# SPKI Derivative work consideration
+Using the work as it's without modification won't be count as derivative work. However, if you do want to be sure, kindly contact the author for clarification. 
+
 ## CApp questions and answers
 [Click me](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
 
