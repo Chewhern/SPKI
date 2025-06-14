@@ -19,7 +19,7 @@
 
 [加密自定义](https://github.com/Chewhern/SPKI/blob/main/Cryptography_Customization_CN.md)
 
-[路径和自定义](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization_CN.md)
+[路径和时长自定义](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization_CN.md)
 
 # SPKI 衍生作品注意事项
 直接使用未经修改的作品将不被视为衍生作品。但是，如果您想确认，请联系作者进行确认。
