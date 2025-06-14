@@ -20,7 +20,7 @@ For details, kindly refer to the corresponding files below.
 
 [Cryptography Customization](https://github.com/Chewhern/SPKI/blob/main/Cryptography_Customization.md)
 
-[Path and customization](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization.md)
+[Path and Duration customization](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization.md)
 
 # SPKI Derivative work consideration
 Using the work as it's without modification won't be count as derivative work. However, if you do want to be sure, kindly contact the author for clarification. 
