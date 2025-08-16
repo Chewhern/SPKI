@@ -13,7 +13,7 @@
 - DateTime parsing is an issue and needs time to fix.
 - Cryptographic key commitment issues and logging data changed without permission are two issues that can't be solved as of now.
 - The software HSM concept was not perfect **(will describe in version 0.0.1).**
-- While chain of trust exists, getting full chain of trusts are not yet possible for middle level authorized users and end users. 
+- While chain of trust exists, getting full chain of trusts have yet to develop for middle level authorized users and end users. 
 
 # Version 0.0.1-Alpha
 Same as version 0.0.0 but added feature of basic software based HSM + KMS which includes **authentication,authorization and accounting**.
