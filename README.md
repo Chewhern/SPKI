@@ -11,6 +11,8 @@ Not sure if this's helpful but here's video link. [Click me](https://www.youtube
 
 I might miss some information. Do ask if you don't understand.
 
+For changelog, kindly [refer here](https://github.com/Chewhern/SPKI/blob/main/ChangeLog.md).
+
 # SPKI License requirements
 If you reuse or distribute this project (with or without modification), you must provide visible credit to the author via a reference or link to this GitHub repository.
 
