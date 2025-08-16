@@ -9,6 +9,11 @@ I don't have time to do some cleaning and clarify some confusions caused by usin
 
 Not sure if this's helpful but here's video link. [Click me](https://www.youtube.com/playlist?list=PLCCjQamH_8r0-gvWvXs_joqkTMGI-SXqz)
 
+**Note:**
+```
+This YouTube playlist was originally prepared for an Ethereum Foundation grant submission. Although that application was not selected, the videos remain a valuable resource to showcase SPKI’s core design and functionality.
+```
+
 I might miss some information. Do ask if you don't understand.
 
 For changelog, kindly [refer here](https://github.com/Chewhern/SPKI/blob/main/ChangeLog.md).
