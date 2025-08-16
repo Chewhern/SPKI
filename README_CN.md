@@ -8,6 +8,11 @@
 不确定这是否有用，但这里有视频链接。[点击我](https://space.bilibili.com/3537114994051579/lists/4746992?type=series)\
 最好还是观看油管的毕竟我的早期B站账号已经注销了。
 
+**Note:**
+```
+此Bilibili播放列表最初是为以太坊基金会的拨款申请而准备的。虽然该申请未被选中，但这些视频仍然是展示 SPKI 核心设计和功能的宝贵资源。
+```
+
 我可能遗漏了一些信息。如有不明白，请随时提问。
 
 如果你要看版本更新，请看[这里](https://github.com/Chewhern/SPKI/blob/main/ChangeLog_CN.md)。
