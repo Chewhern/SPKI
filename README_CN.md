@@ -10,6 +10,8 @@
 
 我可能遗漏了一些信息。如有不明白，请随时提问。
 
+如果你要看版本更新，请看[这里](https://github.com/Chewhern/SPKI/blob/main/ChangeLog_CN.md)。
+
 # SPKI 许可证要求
 如果您重复使用或分发此项目（无论是否修改），都必须通过引用或链接到此 GitHub 仓库来明确注明作者。
 
