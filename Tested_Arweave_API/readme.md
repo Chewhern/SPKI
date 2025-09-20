@@ -4,23 +4,16 @@
 It's possible to calculate **data root** with C# but RSA-PSS and deephash was unable to replicate in C#. 
 
 ## Optimum security
-Optimum security can only be achieved when RSA-PSS and deephash able to be replicated in C# due to memory safety and swap partition concerns.
+Requires replicating RSA-PSS signing and Arweave’s deephash in C#, with secure memory handling **(sodium_malloc, sodium_free, sodium_mprotect_*)** from **libsodium**.
 
-The memory safety and swap partition security functions involved from **libsodium** include **sodium_memzero,sodium_malloc,sodium_free,sodium_mprotect_noaccess,sodium_mprotect_readonly,sodium_mprotect_readwrite**. 
+This ensures private key material never resides in managed memory or swap partitions.
 
-If full zero trust was to be enforced, the Arweave's private key can be loaded dynamically in runtime via secure web API. It's better to avoid loading via browser
-and website based application if it's possible. 
+## Current implementation
+C# can clear key material strings after use, but NodeJS (via ArweaveJS) does not natively expose libsodium’s secure memory APIs.
 
-If one would want middle ground, Arweave's private key can be hardcoded into the C# code snippet but this means it's prone to reverse engineering.
+Achieving equivalent secure memory handling in NodeJS would require **ffi-napi + ref-napi** and a **compiled libsodium** build, which may be excessive for many use cases.
 
-## Current security
-C# side can try to clear the RSA-PSS private key string.
+## Zero-trust options
+Keys can be loaded dynamically at runtime via a secure web API (recommended).
 
-If NodeJS/ArweaveJS side would want to achieve the same cryptographic security like C#, the development might be overkill at least for me.
-
-It needs to involve both community made libraries **ffi-napi, ref-napi** and then pair it with **compiled libsodium** library just to use the stated functions
-to try and clear the RSA-PSS private key string in NodeJS side. This is because of a special reason. Libsodium primarily deal with pointers. While pointers can somehow interchange with Byte[] or UInt_8[], in this particular case, it must be raw and unmanaged pointer pointed to an unmanaged memory address as the Byte[] or UInt_8[] is managed pointer point to managed memory address. If it's not in private key string (immutable data type as each key material of RSA will get convert from respective Base64URL string into Byte[], the latter can be cleared by libsodium's nodejs wrapper but the first can't), such a workaround is not required. 
-
-Another additional factor to factor in, it includes the use of **sodium-native** or the same setting above just to clear all RSA-PSS private key separate and respective information in memory securely immediately after use within **ArweaveJS**.
-
-If just using it as it's, only half of zero trust can be accomplished. 
+Alternatively, keys can be embedded in code, though this introduces reverse-engineering risks.
