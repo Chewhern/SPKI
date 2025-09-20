@@ -14,6 +14,6 @@ C# can clear key material strings after use, but NodeJS (via ArweaveJS) does not
 Achieving equivalent secure memory handling in NodeJS would require **ffi-napi + ref-napi** and a **compiled libsodium** build, which may be excessive for many use cases.
 
 ## Zero-trust options
-Keys can be loaded dynamically at runtime via a secure web API (recommended).
+Keys can be loaded dynamically at runtime via a secure web API while avoiding loading keys via browser(recommended).
 
 Alternatively, keys can be embedded in code, though this introduces reverse-engineering risks.
