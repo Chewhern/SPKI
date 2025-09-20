@@ -4,7 +4,7 @@
 It's possible to calculate **data root** with C# but RSA-PSS and deephash was unable to replicate in C#. 
 
 ## Optimum security
-Requires replicating RSA-PSS signing and Arweave’s deephash in C#, with secure memory handling **(sodium_malloc, sodium_free, sodium_mprotect_*)** from **libsodium**.
+Requires replicating RSA-PSS signing and Arweave’s deephash in C#, with secure memory handling **(sodium_memzero,sodium_malloc, sodium_free, sodium_mprotect_*)** from **libsodium**.
 
 This ensures private key material never resides in managed memory or swap partitions.
 
