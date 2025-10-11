@@ -28,3 +28,8 @@ In Windows, MacOS and Linux (possibly can extend to Android/IOS), it'll always b
 Hence, libsodium's **mlock** must be used. It had certain limitations or difficulties when using that function. The best bet is to use **malloc** from libsodium
 that had **mlock** being applied to the pointer it returned. It solves the swapping issues. Just that using pointer needs to add more functions/enhance the existing
 **ASodium** C# library I created by enabling them to accept pointer data type instead of current byte[] data type. 
+
+# Version 0.0.2-alpha (not yet release)
+Minorly rework on some code ensuring sensitive cryptographic data won't end up in swap partitions.
+
+When the code release, if i can test it, I will test it, if can't then might require developers to test on their side.
