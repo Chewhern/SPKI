@@ -29,7 +29,5 @@ Hence, libsodium's **mlock** must be used. It had certain limitations or difficu
 that had **mlock** being applied to the pointer it returned. It solves the swapping issues. Just that using pointer needs to add more functions/enhance the existing
 **ASodium** C# library I created by enabling them to accept pointer data type instead of current byte[] data type. 
 
-# Version 0.0.2-alpha (not yet release)
-Minorly rework on some code ensuring sensitive cryptographic data won't end up in swap partitions.
-
-When the code release, if i can test it, I will test it, if can't then might require developers to test on their side.
+# Version 0.0.2-alpha (not yet tested)
+Server side code **(Not including LSHSM server side application)** have now disabled **swap partitions** for cryptographic sensitive data for **libsodium supported cryptographic features**. 
