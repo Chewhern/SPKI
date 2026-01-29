@@ -3,6 +3,10 @@
 
 **The next update will integrate Arweave into SPKI as one of the core components for this framework.** 
 
+**Only when the documentations had been finalized, there'll be a static website hosted on Arweave.**
+
+**This project from next update onwards will become a hybrid of web 2.0 and web 3.0**
+
 [Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/README_CN.md)
 
 A simple user to user PKI full stack prototype with C#.
