@@ -1,4 +1,8 @@
 # SPKI
+**Perhaps after one or two more updates on this, this repository will be moved to beta phase.**
+
+**The next update will integrate Arweave into SPKI as one of the core components for this framework.** 
+
 [Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/README_CN.md)
 
 A simple user to user PKI full stack prototype with C#.
