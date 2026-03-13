@@ -29,5 +29,13 @@ Hence, libsodium's **mlock** must be used. It had certain limitations or difficu
 that had **mlock** being applied to the pointer it returned. It solves the swapping issues. Just that using pointer needs to add more functions/enhance the existing
 **ASodium** C# library I created by enabling them to accept pointer data type instead of current byte[] data type. 
 
-# Version 0.0.2-alpha (not yet tested)
+# Version 0.0.2-alpha
 Server side code **(Not including LSHSM server side application)** have now disabled **swap partitions** for cryptographic sensitive data for **libsodium supported cryptographic features**. 
+
+# Version 0.0.1-beta
+```
+SPKITL_AU_App, SPKITL_ON_App
+```
+had been integrated with Arweave via **SimplifiedArweaveSDK**. SPKITL applications now no longer uses problematic DateTime String, it now switches to integer based time (https://brh6cbdorscmar3lncok2yuxjef7mpgtq5nef4btpqljigxj3mba.arweave.net/DE_hBG6MhMBHa2icrWKXSQv2PNOHWkLwM3wWlBrp2wI). There're some bugs that come from my side/constraints mainly the C# SDK of Arweave.
+
+**There're no updates on SPKIML level of applications as of now..**
