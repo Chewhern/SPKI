@@ -39,3 +39,5 @@ SPKITL_AU_App, SPKITL_ON_App
 had been integrated with Arweave via **SimplifiedArweaveSDK**. SPKITL applications now no longer uses problematic DateTime String, it now switches to integer based time (https://brh6cbdorscmar3lncok2yuxjef7mpgtq5nef4btpqljigxj3mba.arweave.net/DE_hBG6MhMBHa2icrWKXSQv2PNOHWkLwM3wWlBrp2wI). There're some bugs that come from my side/constraints mainly the C# SDK of Arweave.
 
 **There're no updates on SPKIML level of applications as of now..**
+
+SPKI from this version and onwards officially became **A Byzantine-Resilient Federated PKI with hardened software cryptographic handling**. 
