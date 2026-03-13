@@ -35,7 +35,7 @@
 # 0.0.2-alpha 版本 (还未测试)
 服务器端代码 **(不包括 LSHSM 服务器端应用程序)** 现已禁止**libsodium 所支持的密码学功能**的所有的密码学敏感数据使用**交换分区**。
 
-# Version 0.0.1-beta
+# 0.0.1-beta 版本
 ```
 SPKITL_AU_App, SPKITL_ON_App
 ```
