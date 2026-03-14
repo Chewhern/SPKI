@@ -40,11 +40,6 @@ For details, kindly refer to the corresponding files below.
 # SPKI Derivative work consideration
 Using the work as it's without modification won't be count as derivative work. However, if you do want to be sure, kindly contact the author for clarification. 
 
-## CApp questions and answers
-[Click me](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
-
-[中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
-
 ## Components/Environment required
 
 [Download Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
