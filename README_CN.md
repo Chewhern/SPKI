@@ -21,12 +21,8 @@
 如果您重复使用或分发此项目（无论是否修改），都必须通过引用或链接到此 GitHub 仓库来明确注明作者。
 
 # SPKI 许可证排除条款
-目前，三种类型的代码修改不会触发 AGPL 许可证。它们是**加密自定义**、**路径自定义**和**时长自定义**。
-详情请参阅以下相应文件。
 
 [加密自定义](https://github.com/Chewhern/SPKI/blob/main/Cryptography_Customization_CN.md)
-
-[路径和时长自定义](https://github.com/Chewhern/SPKI/blob/main/PathAndDuration_Customization_CN.md)
 
 # SPKI 衍生作品注意事项
 直接使用未经修改的作品将不被视为衍生作品。但是，如果您想确认，请联系作者进行确认。
