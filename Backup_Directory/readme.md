@@ -3,6 +3,6 @@ This directory will be storing some abandoned code/progress which comes with int
 There will be other directory which stores successful integration with Arweave.
 
 # CApp questions and answers
-[Click me](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
+[Click me](https://github.com/Chewhern/SPKI/blob/main/Backup_Directory/CApp.md)
 
-[中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
+[中文版本](https://github.com/Chewhern/SPKI/blob/main/Backup_Directory/CApp_CN.md)
