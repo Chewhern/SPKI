@@ -31,11 +31,6 @@
 # SPKI 衍生作品注意事项
 直接使用未经修改的作品将不被视为衍生作品。但是，如果您想确认，请联系作者进行确认。
 
-## CApp 问答
-[English](https://github.com/Chewhern/SPKI/blob/main/CApp.md)
-
-[中文版本](https://github.com/Chewhern/SPKI/blob/main/CApp_CN.md)
-
 ## 所需组件/环境
 
 [下载 Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
