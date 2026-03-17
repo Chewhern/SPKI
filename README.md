@@ -81,9 +81,6 @@ Save the file and enable the service.
 ```
 4. Finish until **systemctl**.
 
-### Host and deploy console/terminal server applications
-Kindly refer to **cronjob** or **crontab** tutorial on Linux either by video or by LLM.
-
 #### Configuring program.cs on server applications (Web API)
 If there's error unable to start the server applications especially for **ML and TL** server application, kindly remove something like this
 ```
@@ -101,13 +98,3 @@ lifetime.ApplicationStarted.Register(() =>
     // Your code here
 });
 ```
-
-#### Configuring ONodeInformation.txt and PNodeInformation.txt
-For **ONodeInformation.txt**, you need to either get other top level node's public or private web API server's application IP address.\
-This is catering to TL server application.
-
-For **PNodeInformation.txt**, you need to get either one top level node's public or private web API server's application IP address.\
-This is catering to ML server application.
-
-#### Information on HasRunFirstTime.txt
-Kindly remove the file from the server's file system. Let the server application creates it automatically.
