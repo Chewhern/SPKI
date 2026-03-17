@@ -36,11 +36,10 @@
 服务器端代码 **(不包括 LSHSM 服务器端应用程序)** 现已禁止**libsodium 所支持的密码学功能**的所有的密码学敏感数据使用**交换分区**。
 
 # 0.0.1-beta 版本
-```
-SPKITL_AU_App, SPKITL_ON_App
-```
-以**SimplifiedArweaveSDK**的方式與Arweave嵌入了. SPKITL的軟件現在不再使用String來代表時間, 現在換成了這樣的一種形式。 (https://brh6cbdorscmar3lncok2yuxjef7mpgtq5nef4btpqljigxj3mba.arweave.net/DE_hBG6MhMBHa2icrWKXSQv2PNOHWkLwM3wWlBrp2wI). 會有來自於我使用C#的Arweave的bug，這主要是受限于我的能力.
+SPKIML_* 和 SPKITL_* 已通过 **SimplifiedArweaveSDK** 集成到 Arweave 中。
 
-**SPKIML的軟件還沒更新**
+日期时间不再使用字符串表示，现在使用整数表示。
 
-SPKI 從這版本起變成了 **一种具有强化软件加密处理的、可抵御拜占庭攻击的联邦公钥基础设施 (PKI)**. 
+**目前 SHSM 应用程序暂无更新。**
+
+从此版本开始，SPKI 正式成为 **具有强化软件加密处理的拜占庭容错联合公钥基础设施 (PKI)。**
