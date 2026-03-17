@@ -81,9 +81,6 @@ Save the file and enable the service.
 ```
 4. 把**systemctl**完成就可以了。
 
-### 托管和部署控制台/终端服务器应用程序
-请参考 Linux 上的 **cronjob** 或 **crontab** 教程（视频或 LLM）。
-
 #### 在服务器应用程序上配置 program.cs (Web API)
 如果出现无法启动服务器应用程序的错误，特别是**ML 和 TL** 服务器应用程序，请删除类似这样的内容
 ```
@@ -101,8 +98,3 @@ lifetime.ApplicationStarted.Register(() =>
     // Your code here
 });
 ```
-
-#### 配置 ONodeInformation.txt 和 PNodeInformation.txt
-对于 **ONodeInformation.txt**，您需要获取其他顶级节点的公共或私有 Web API 服务器的应用程序 IP 地址。
-
-这适用于 TL 服务器应用程序。
