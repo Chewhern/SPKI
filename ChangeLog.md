@@ -33,11 +33,10 @@ that had **mlock** being applied to the pointer it returned. It solves the swapp
 Server side code **(Not including LSHSM server side application)** have now disabled **swap partitions** for cryptographic sensitive data for **libsodium supported cryptographic features**. 
 
 # Version 0.0.1-beta
-```
-SPKITL_AU_App, SPKITL_ON_App
-```
-had been integrated with Arweave via **SimplifiedArweaveSDK**. SPKITL applications now no longer uses problematic DateTime String, it now switches to integer based time (https://brh6cbdorscmar3lncok2yuxjef7mpgtq5nef4btpqljigxj3mba.arweave.net/DE_hBG6MhMBHa2icrWKXSQv2PNOHWkLwM3wWlBrp2wI). There're some bugs that come from my side/constraints mainly the C# SDK of Arweave.
+SPKIML_* and SPKITL_* had been integrated with Arweave via **SimplifiedArweaveSDK**
 
-**There're no updates on SPKIML level of applications as of now..**
+DateTime no longer use String representations, it now uses integer representations.
+
+**There're no updates on SHSM application as of now..**
 
 SPKI from this version and onwards officially became **A Byzantine-Resilient Federated PKI with hardened software cryptographic handling**. 
