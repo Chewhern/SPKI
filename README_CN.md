@@ -1,4 +1,9 @@
 # SPKI
+**只有在所有文档最终定稿后，才会在 Arweave 上托管静态网站。**
+
+**从 0.0.1-beta 版本开始，本项目已发展成为 Web 2.0 和 Web 3.0 的混合体。**
+
+[English version/英文版本](https://github.com/Chewhern/SPKI/blob/main/README.md)
 一个简单的用户对用户 PKI 全栈原型，使用 C# 实现。
 
 这是一个CA + 信任网络 + GPG 的原型应用程序。
