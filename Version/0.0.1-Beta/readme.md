@@ -48,3 +48,8 @@ Y≥2
 For each of the nodes in TL, the authorized users within each node **must not** sign themselves. The authorized users within each node **must sign only other** TL nodes' authorized users.
 
 在TL中的每个节点中，每个节点内的授权用户**不得**对自己进行签名。每个节点内的授权用户**只能**对其他TL节点的授权用户进行签名。
+
+# SPKIML Information/SPKIML的一些資訊
+For each SPKIML node, it needs to get its authorized users signed by any single signed SPKITL nodes' all authorized users. This serves as an extended module similar to that of classic PKI/CA's hierarchical model. The second security assumptions from SPKITL applies to SPKIML.
+
+每个 SPKIML 节点都需要其中一個已被其他SPKITL節點簽名的 SPKITL 节点的已授权用户对其进行签名。这相当于一个扩展模块，类似于经典 PKI/CA 的分层模型。SPKITL 的第二个安全假设也适用于 SPKIML。
