@@ -1,11 +1,7 @@
 # SPKI
-**Perhaps after one or two more updates on this, this repository will be moved to beta phase.**
-
-**The next update will integrate Arweave into SPKI as one of the core components for this framework.** 
-
 **Only when the documentations had been finalized, there'll be a static website hosted on Arweave.**
 
-**This project from next update onwards will become a hybrid of web 2.0 and web 3.0**
+**This project had became a hybrid of web 2.0 and web 3.0 starting from 0.0.1-beta**
 
 [Chinese version/中文版本](https://github.com/Chewhern/SPKI/blob/main/README_CN.md)
 
