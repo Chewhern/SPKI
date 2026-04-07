@@ -99,7 +99,20 @@ lifetime.ApplicationStarted.Register(() =>
 });
 ```
 
-# 贊助/資助
-如果你要這個軟件或者框架可以運行，你可以把一些Arweave 的AR代幣發給 **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** 的Arweave錢包地址。
+# 公开演示/托管服务
 
-虚拟专用服务器每月需要 280 马币，而自愿授权用户每月可能需要 80 马币。
+SPKI 完全开源。您可以随时**自行运行**，无需任何费用或权限。
+
+如果您希望我**运行一个公共实例**（例如，托管 API 节点、公开演示、Arweave 锚定端点），一旦收到足够的 Arweave 捐款以支付基础设施成本，我即可进行设置。
+
+**每月参考成本（如果启用公共服务）：**
+
+- VPS 托管：约 280 马来西亚林吉特
+
+- 自愿授权用户（如有）：约 80 马来西亚林吉特
+
+**Arweave 捐款地址（用于表明兴趣/帮助资助公共服务）：**
+
+`cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA`
+
+未捐款将无法提供公共实例。但代码始终可供您自行运行。
