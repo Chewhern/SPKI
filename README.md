@@ -99,7 +99,17 @@ lifetime.ApplicationStarted.Register(() =>
 });
 ```
 
-# Donation
-If you would like this application/framework able to run, kindly donate/sponsor some AR to **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** Arweave wallet address.
+# Public Demo / Hosted Services
 
-It'll need 280 MYR equivalent per month for the virtual private servers cost whereas the voluntary authorized users may need 80 MYR equivalent per month. 
+SPKI is fully open source. You can **run it yourself** at any time, with no cost or permission needed.
+
+If you would like me to **run a public instance** (e.g., hosted API nodes, public demo, Arweave anchoring endpoints), I can set that up once enough AR donations are received to cover the infrastructure costs.
+
+**Monthly reference cost (if public services are activated):**
+- VPS hosting: ~280 MYR
+- Voluntary authorized users (if involved): ~80 MYR
+
+**Arweave donation address (to signal interest / help fund public services):**
+`cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA`
+
+No donation = no public instance. But the code is always there for you to run yourself.
