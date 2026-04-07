@@ -101,3 +101,5 @@ lifetime.ApplicationStarted.Register(() =>
 
 # Donation
 If you would like this application/framework able to run, kindly donate/sponsor some AR to **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** Arweave wallet address.
+
+It'll need 280 MYR equivalent per month for the virtual private servers cost whereas the voluntary authorized users may need 80 MYR equivalent per month. 
