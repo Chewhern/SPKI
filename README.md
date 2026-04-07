@@ -98,3 +98,6 @@ lifetime.ApplicationStarted.Register(() =>
     // Your code here
 });
 ```
+
+# Donation
+If you would like this application/framework able to run, kindly donate/sponsor some AR to **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** Arweave wallet address.
