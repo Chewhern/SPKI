@@ -101,4 +101,3 @@ lifetime.ApplicationStarted.Register(() =>
 
 # 贊助/資助
 如果你要這個軟件或者框架可以運行，你可以把一些Arweave 的AR代幣發給 **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** 的Arweave錢包地址。
-If you would like this application/framework able to run, kindly donate/sponsor some AR to **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** Arweave wallet address.
