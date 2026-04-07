@@ -101,3 +101,5 @@ lifetime.ApplicationStarted.Register(() =>
 
 # 贊助/資助
 如果你要這個軟件或者框架可以運行，你可以把一些Arweave 的AR代幣發給 **cQmh6CCyjxDbk8O2EzRTZxoGjzOnf6SWnfyvzLN68OA** 的Arweave錢包地址。
+
+虚拟专用服务器每月需要 280 马币，而自愿授权用户每月可能需要 80 马币。
